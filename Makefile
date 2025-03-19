@@ -3,7 +3,7 @@ all: sum_nbo
 sum_nbo: sum_nbo.o
 	g++ -o sum_nbo sum_nbo.o
 
-sum_nbo.o : sum.cpp
+sum_nbo.o : sum_nbo.cpp
 	g++ -c -o sum_nbo.o sum_nbo.cpp
 
 run: sum_nbo
